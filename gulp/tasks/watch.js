@@ -25,4 +25,11 @@ gulp.task('watch', () => {
 
     });
     
+    watch('./app/assets/scripts/**/*.js', ()=> {
+        gulp.start('scriptsRefresh');
+    });
+});
+
+gulp.task('scriptsRefresh', ['scripts'], () => {
+    browerSync.reload();
 });
