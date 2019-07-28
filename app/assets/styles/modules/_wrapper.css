@@ -2,7 +2,9 @@
     overflow: hidden;
     max-width: 1236px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    padding-left: 18px;
+    padding-right: 18px; 
 
     &--medium {
         max-width: 976px;
